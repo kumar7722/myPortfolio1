@@ -13,7 +13,7 @@ const ProjectsCard = () => {
     <>
         
 {/* first card */}
-<div class="mr-2 w-64 h-auto bg-backgroundFirst max-w-sm border border-black hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class="mr-2 w-64 h-auto bg-[#edf2f8] max-w-sm border border-black hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-lg shadow">
     <a href="https://mentorpal.ai">
         <Image class="p-8 rounded-t-lg" 
           width={300}

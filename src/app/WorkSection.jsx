@@ -14,7 +14,7 @@ const WorkSection = () => {
               <span class="absolute flex items-center justify-center mt-9 w-4 h-4 bg-reactColor rounded-full -start-2 ring-8 ring-white hover:ring-textColor dark:ring-gray-900 dark:bg-blue-900"></span>
               <span className="flex justify-between">
                 {" "}
-                <span class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+                <span class="mb-1 text-lg font-semibold text-gray-900">
                   SolveBee
                 </span>
                 <a href="https://cityluxedxb.com">
@@ -28,7 +28,7 @@ const WorkSection = () => {
                   />
                 </a>
               </span>
-              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <time class="block mb-2 text-sm font-normal leading-none text-gray-400">
                 Frontend Developer(ReactJS Developer)
               </time>
               <span className="flex justify-between">
@@ -45,7 +45,7 @@ const WorkSection = () => {
               <span class="absolute flex items-center justify-center mt-9 w-4 h-4 bg-reactColor rounded-full -start-2 ring-8 ring-white hover:ring-textColor dark:ring-gray-900 dark:bg-blue-900"></span>
               <span className="flex justify-between">
                 {" "}
-                <span class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+                <span class="mb-1 text-lg font-semibold text-gray-900 ">
                   Mentorpal.ai
                 </span>
                 <a href="https://mentorpal.ai">

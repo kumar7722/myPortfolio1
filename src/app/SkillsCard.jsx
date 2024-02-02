@@ -10,7 +10,7 @@ const SkillsCard = ({ logoSrc, altText, title }) => {
           src={logoSrc}
         /></div>
         <div className="">
-          <h5 className="text-sm tracking-tight text-gray-900 dark:text-white">
+          <h5 className="text-sm tracking-tight text-[#212121]">
             {title}
           </h5>
         </div>

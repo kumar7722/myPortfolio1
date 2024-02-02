@@ -32,7 +32,7 @@ const HeroSection = () => {
     };
   }, []);
   return (
-    <div className="flex flex-col lg:flex-row items-center pb-20">
+    <div className="flex flex-col lg:flex-row items-center pb-20 bg-white">
       {/* Column 1 - 60% width on large screens */}
       <div className="lg:w-3/5 w-full lg:order-1 sm:order-2 px-28 pt-7">
       <p className='text-2xl font-bold text-reactColor'>Hi, I am</p>

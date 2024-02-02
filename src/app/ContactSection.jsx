@@ -22,7 +22,8 @@ const ContactSection = () => {
   }
   return (
    <>
-    <div className='bg-white py-10' style={{ backgroundImage: 'url(/public/bglight.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+    <div className='bg-white py-10' 
+    // style={{ backgroundImage: 'url(/public/bglight.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
 >
 <h2 className='text-center font-bold'>Contact Me!</h2>
 <div data-aos="zoom-in-up" className="mt-5 w-1/3 mx-auto border-2 border-reactColor rounded p-4">

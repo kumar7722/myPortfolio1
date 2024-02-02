@@ -3,17 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env NEXT_PUBLIC_FRAMEWORK=next NODE_ENV=development node server.js",
-    "build-next": "cross-env NEXT_PUBLIC_FRAMEWORK=next next build",
+    "dev": "next dev",
     "build": "next build",
-    "start": "node server.js -p 80",
-    "lint": "next lint",
-    "build:staging": "env-cmd -f .env.staging npm build",
-
-    "start-next": "cross-env NEXT_PUBLIC_FRAMEWORK=next NODE_ENV=production node server.js"
-
+    "build-next": "cross-env NEXT_PUBLIC_FRAMEWORK=next next build",
+    "start": "next start",
+    "lint": "next lint"
   },
- 
   "dependencies": {
     "@nextui-org/react": "^2.2.9",
     "aos": "^2.3.4",

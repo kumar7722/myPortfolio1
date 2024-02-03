@@ -24,11 +24,20 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
       <Providers>
       <MyNavbar />
+      {/* <Element name="hero"> */}
       <HeroSection/>
+      {/* </Element> */}
+      {/* <Element name="work"> */}
       <WorkSection/>
+      {/* </Element> */}
+      {/* <Element name="projects"> */}
       <Projects/>
+      {/* </Element> */}
+      {/* <Element name="skills"> */}
       <SkillsSections/>
+      {/* </Element> */}
       <ContactSection/>
+      
       <MainFooter/>
       {children}
       </Providers>

@@ -32,7 +32,7 @@ const HeroSection = () => {
     };
   }, []);
   return (
-    <div className="flex flex-col lg:flex-row items-center pb-20 bg-white">
+    <div className="flex flex-col lg:flex-row items-center pb-20 bg-white" id='about'>
       {/* Column 1 - 60% width on large screens */}
       <div className="lg:w-3/5 w-full lg:order-1 sm:order-2 px-28 pt-7">
       <p className='text-2xl font-bold text-reactColor'>Hi, I am</p>
@@ -44,9 +44,19 @@ const HeroSection = () => {
         I like to code things from scratch, and enjoy bringing ideas to life in the browser and I love what I do.</p>
       
         <div className="flex space-x-4">
-          <span className="text-2xl"><SiLinkedin color='#0075B5' /></span>
-          <span className="text-2xl"><ImFacebook2 color='#316FF6'/></span>
-          <span className="text-2xl"><RiTwitterXLine /></span>
+        <a href="https://www.linkedin.com/in/sonu-kumar-09a30b169/" target="_blank" rel="noopener noreferrer">
+  <span className="text-2xl"><SiLinkedin color='#0075B5' /></span>
+</a>
+
+<a href="https://www.facebook.com/SKUMAR7722/" target="_blank" rel="noopener noreferrer">
+  <span className="text-2xl"><ImFacebook2 color='#316FF6'/></span>
+</a>
+
+<a href="https://twitter.com/SONUKUM85858046" target="_blank" rel="noopener noreferrer">
+  <span className="text-2xl"><RiTwitterXLine /></span>
+</a>
+
+
         </div>
       </div>
 

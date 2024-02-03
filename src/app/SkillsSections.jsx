@@ -21,15 +21,16 @@ import photoshop from '../../public/ps.png'
 import figma from '../../public/figma.png'
 import node from '../../public/node.png'
 import styledComponent from '../../public/styled.webp'
+import daisyUI from '../../public/daisyui.png'
 import mongoLogo from '../../public/mongo.png'
 import SkillsCard from './SkillsCard'
 
 const SkillsSections = () => {
   return (
     <>
-<div className="bg-backgroundFirst py-10 flex text-center justify-center">
+<div className="bg-backgroundFirst py-10 flex text-center justify-center" id='skills'>
 <div className=''>
-<h2 className='text-center font-bold'>Skills</h2>
+<p className='text-center text-3xl font-bold'>SKILLS</p>
 <h5 className='mt-3  mb-4'><p className='border-b-2  border-b-reactColor w-min mx-auto'>Frontend</p></h5>
 <div className='flex justify-center'>
 <SkillsCard logoSrc={HtmlLogo} altText="Logo of HTML" title="HTML" />
@@ -50,6 +51,7 @@ const SkillsSections = () => {
 <SkillsCard logoSrc={antD} altText="Logo of Ant Design" title="Ant Design" />
 <SkillsCard logoSrc={semanticUI} altText="Logo of semantic ui" title="Semantic UI" />
 <SkillsCard logoSrc={styledComponent} altText="Logo of styled components" title="Styled Components" />
+<SkillsCard logoSrc={daisyUI} altText="Logo of daisy ui" title="DaisyUI" />
 
 </div>
 <h5 className='mt-5  mb-4'><p className='border-b-2  border-b-reactColor w-min mx-auto text-nowrap'>Other Tools</p></h5>

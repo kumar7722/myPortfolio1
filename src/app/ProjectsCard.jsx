@@ -50,7 +50,7 @@ const ProjectsCard = () => {
 </div>
 {/* second card */}
 
-<div class="ml-2 w-64 h-auto bg-backgroundFirst max-w-sm border border-black hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class="ml-2 w-64 h-auto bg-backgroundFirst max-w-sm border border-black hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-lg shadow">
     <a href="#">
         <Image class="p-8 rounded-t-lg" 
           width={300}
@@ -58,7 +58,7 @@ const ProjectsCard = () => {
     </a>
     <div class="px-2 pb-5">
         
-            <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white mb-4">CityLuxe</h5>
+            <h5 class="text-xl font-semibold tracking-tight text-gray-900 mb-4">CityLuxe</h5>
         
         <div class="items-center mt-2.5 mb-3 flex-wrap">
            <span className='text-textColor border-1 border-textColor rounded-md p-0.5'>Javascript</span>

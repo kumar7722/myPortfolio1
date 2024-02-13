@@ -8,8 +8,8 @@ const GoToTop = () => {
     };
 
     return (
-        <div  style={{position: 'fixed', bottom: '2rem', right: '2rem', zIndex: '999'}}>
-            <TbSquareArrowUpFilled color='#3998B6' className='w-16 h-16' onClick={goToBtn} />
+        <div  style={{position: 'fixed', bottom: '0', right: '2rem', zIndex: '999'}}>
+            <TbSquareArrowUpFilled color='#3998B6' className='w-14 h-14' onClick={goToBtn} />
         </div>
     );
 };
